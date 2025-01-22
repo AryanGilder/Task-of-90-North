@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h2>Login</h2>
+<form method="POST">
+    {% csrf_token %}
+    <!-- Form fields here -->
+    <button type="submit">Send</button>
+</form>
+
+<p>Don't have an account? <a href="{% url 'register' %}">Register</a></p>
+{% endblock %}

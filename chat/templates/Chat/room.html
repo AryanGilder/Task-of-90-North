@@ -1,0 +1,9 @@
+<h1>Room: {{ room_name }}</h1>
+
+<div id="messages">
+    {% for message in messages %}
+        <p><strong>{{ message.user.username }}:</strong> {{ message.content }}</p>
+    {% empty %}
+        <p>No messages yet.</p>
+    {% endfor %}
+</div>
