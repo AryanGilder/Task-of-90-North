@@ -33,15 +33,13 @@ This is a Django-based chat application that allows users to sign up, log in, an
 6. **Open the Application**:
     Open your browser and navigate to `http://127.0.0.1:8000/` to access the chat application.
 
-## Common Issues and Troubleshooting Steps
+#Common Issues and Troubleshooting Steps
 
-If you encounter a 500 Internal Server Error, follow these steps to diagnose and fix the issue:
+Currently, I am encountering a 500 Internal Server Error when deploying the application. Despite my efforts to troubleshoot and resolve the issue, 
+I was unable to fix it within the given timeframe. I am actively working on identifying and addressing the root cause, and with more time or guidance, 
+I am confident I can resolve this issue promptly. Thank you for your understanding.
 
-
-This phrasing conveys that you put effort into troubleshooting and fixing the issue but acknowledges the time constraints, while also showing willingness to resolve the problem with more time or guidance.
-
-
-AWS Task : 
+#AWS Task : 
 
 1. AWS Lambda Function to Add Two Numbers
 Steps:
